@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(74, 135, 239);
+}
+#home{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+#about{
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+}
+#contact{
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+}
+.valdrinhajra{
+    width: 400px;
+    height: 350px;
+    border-radius: 40px;
+    margin: auto;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: center; 
+    border: white;
+}
+.valdrinhajra h1{
+    color: black;
+    text-transform: inherit;
+    font-weight: 500;
+
+}
+.valdrinhajra input[type = "email"],.valdrinhajra input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.valdrinhajra input[type= "email"]:focus,.valdrinhajra  input[type = "password"]:focus{
+    width: 280px; 
+    border-color: grey;
+ 
+}
+.valdrinhajra input[type = "submit"]{
+    border: 0;
+    background: rgb(0, 123, 255);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid grey;
+    width: 230px;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.valdrinhajra input[type = " submit"]:hover{
+    background: #2ecc71;
+}
+.fb{
+    float: left;
+    height: 1px;
+}
+
+#fbimg{
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    padding: 0 5px;
+    transform: translate(-50%,50%);
+}
+#gmaillogo{
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 0 5px;
+    transform: translate(-50%,50%);
+}
+#twitterlogo{
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    padding: 0 5px;
+    transform: translate(-50%,50%);
+}
